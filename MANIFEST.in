@@ -1,0 +1,7 @@
+include README.md
+include requirements.txt
+include tomo_detect/*.json
+
+# Model weights are intentionally excluded from the source distribution.
+# Models are large and should be hosted separately (e.g. GitHub Releases, S3)
+# Users can download models using the provided helper in `tomo_detect.models_manager`.
