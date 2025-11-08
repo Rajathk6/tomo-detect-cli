@@ -2,8 +2,7 @@
 
 A command-line tool for detecting motor coordinates in tomography data using deep learning models.
 
-Check out the project details and installation on PYPI: 
-   > [PYPI guide]{https://pypi.org/project/tomo-detect/0.1.7/}
+### Check out the project details and installation on [PYPI](https://pypi.org/project/tomo-detect/0.1.7/)
 ## Installation
 
 ```bash
