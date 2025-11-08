@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="tomo-detect",
-    version="0.1.6",
+    version="0.1.7",
     packages=find_packages(),
     install_requires=open('requirements.txt').read().splitlines(),
     entry_points={
@@ -16,7 +16,7 @@ setup(
     long_description=open('README.md').read(),
     long_description_content_type="text/markdown",
     keywords="Bacterial Flagellar Motor, tomography, motor detection, deep learning, CNN",
-    url="https://github.com/brendanartley/BYU-competition",
+    url="https://github.com/Rajathk6/tomo-detect-cli",
     classifiers=[
         "Development Status :: 3 - Alpha",
         "Intended Audience :: Science/Research",

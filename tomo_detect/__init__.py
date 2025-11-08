@@ -19,14 +19,9 @@ import warnings
 warnings.filterwarnings('ignore', category=UserWarning, 
                        message='Using a non-tuple sequence for multidimensional indexing is deprecated*')
 
-__version__ = "0.1.6"
+__version__ = "0.1.7"
 __author__ = "Rajath Kumar"
 
-
-# Avoid importing heavy submodules at package import time. Importing
-# the package should be fast and not execute deep model imports — the
-# CLI and consumers will request model-related symbols lazily when
-# they're actually needed.
 def __getattr__(name: str):
     """Lazily import selected attributes from submodules.
 
